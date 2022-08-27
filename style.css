@@ -125,3 +125,15 @@ footer .fa-brands{
       padding:5px ;
     }
 }
+
+@media screen and (orientation:landscape) and
+(min-device-width: 320px) and (max-device-width: 900px) {
+  .texto{
+    top: 40%;
+    z-index: 1000000;
+  }
+
+  footer{
+    flex-direction: row;
+  }
+}
