@@ -55,34 +55,13 @@
 }
 
 
-@media only screen and (max-width: 900px) {
-
-	.container .logo {
-		position: absolute;
-		left: 50%;
-		transform: translate(-50%);
-		margin: auto;
-		width: 75%;
-	  }
-
-	  .container #scene .layer video {
-		position: absolute;
-		width: 250px;
-		top: 10%;
-		left: 40%;
-	  }
-
-    .texto{
-      left: 20%;
-    }
-}
 
 
 .texto{
   
   position: absolute;
   top: 20%;
-  left: 50%;
+  left: 40%;
   right: 10%;
   
 }
@@ -99,15 +78,50 @@ footer{
 }
 
 footer .fa-brands, .mail, .telefono{
-  padding-left:20px ;
+  padding:20px ;
   color: #a6d5df;
 }
 
 
-footer .mail, .telefono{
- 
-}
+/* footer .mail, .telefono{
+
+  
+} */
 footer .fa-brands{
   font-size: 2.5rem;
   
+}
+
+@media screen and (max-width: 900px) {
+
+  .container .logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin: auto;
+    width: 75%;
+    }
+
+    .container #scene .layer video {
+    position: absolute;
+    width: 250px;
+    top: 10%;
+    left: 40%;
+    }
+
+  .texto{
+    left: 20%;
+  }
+
+    footer{
+      flex-direction: column;
+    }
+    
+    footer .mail{
+      text-align: center;
+    }
+    
+    footer .fa-brands, .mail, .telefono{
+      padding:5px ;
+    }
 }
