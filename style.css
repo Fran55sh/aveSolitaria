@@ -106,7 +106,8 @@ footer .fa-brands{
     position: absolute;
     width: 250px;
     top: 10%;
-    left: 40%;
+    left: 20%;
+    transform: translate(-20%);
     }
 
   .texto{
