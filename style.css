@@ -68,11 +68,11 @@
 
 
 .texto{
-  
+  text-align: center;
   position: absolute;
   top: 40%;
-  left: 40%;
-  right: 10%;
+  left: 50%;
+  transform: translate(-50%);
   color: black;
   z-index: 10000000;
   
@@ -125,7 +125,8 @@ footer .fa-brands{
     }
 
   .texto{
-    left: 20%;
+    left: 50%;
+  transform: translate(-50%);
   }
 
     footer{
